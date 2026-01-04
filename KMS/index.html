@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ერთი რამ მინდა გითხრა</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" />
+  </head>
+  <body>
+    <!-- Music & Dark Mode Buttons -->
+    <div class="top-buttons">
+      <button id="music-btn">🎵</button>
+    </div>
+
+    <section class="intro">
+      <h1>ერთი რაღაც მაქვს სათქმელი…</h1>
+      <p>თუ ცოტა დრო გაქვს, გთხოვ წაიკითხო.</p>
+      <button id="continue-btn">გააგრძელებ?</button>
+    </section>
+
+    <section class="mistake reveal" id="target">
+      <h2>სად შევცდი მე</h2>
+      <p>
+        ზოგჯერ სათქმელს ვერ ვამბობ ისე, როგორც მინდა.ხოლო ეს წყინს მათ,ვინც ჩემთვის
+       მნიშვნელოვანია.
+      </p>
+      <button class="next-btn">↓ გააგრძელე</button>
+    </section>
+
+    <section class="meaning reveal">
+      <h2>რატომ ხარ მნიშვნელოვანი ადამიანი</h2>
+      <div class="cards">
+        <div class="card">ხარ სწორედ მოაზროვნე</div>
+        <div class="card">კარგი გემოვნების მქონე</div>
+        <div class="card">შენ მიბიძგებ უკეთესობისკენ</div>
+      </div>
+      <button class="next-btn">↓ გააგრძელე</button>
+    </section>
+
+    <section class="forgive reveal">
+      <h2>მაპატიებ?</h2>
+      <button class="forgive-btn">🤍</button>
+    </section>
+
+    <audio
+      id="bg-music"
+      src="./skazz-ft-erekle-deisadze-dgemde-128-ytshorts.savetube.me.mp3"
+      loop
+      preload="auto"
+    ></audio>
+    <script src="./script.js"></script>
+  </body>
+</html>
